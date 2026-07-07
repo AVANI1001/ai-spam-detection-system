@@ -52,7 +52,7 @@ npm start
 ```bash
 cd backend
 npm install
-npm start
+nodemon
 ```
 
 #### ML Service Setup
