@@ -2,14 +2,14 @@
 
 ## About This Project
 
-An intelligent spam detection system that combines machine learning with a modern web interface to identify and filter spam content. This full-stack application provides real-time spam classification capabilities using AI/ML models.
+An intelligent spam detection system that combines machine learning with a modern web interface to identify and filter spam content. This full-stack application provides real-time spam classification.
 
 ### Project Overview
 
 The AI Spam Detection System is designed to detect and classify spam messages, emails, or content using advanced machine learning techniques. The project consists of three main components:
 
 - **Frontend**: React-based user interface for interacting with the spam detection system
-- **Backend**: API server for handling requests and business logic
+- **Backend**: Node.js & Express.js API server for handling requests and business logic
 - **ML Service**: Python-based machine learning service for spam classification and model inference
 
 ### Key Features
@@ -26,6 +26,7 @@ The AI Spam Detection System is designed to detect and classify spam messages, e
 - **Frontend**: JavaScript & React (72.2%)
 - **Styling**: CSS (12.8%)
 - **Markup**: HTML (9.3%)
+- **Backend**: Node.js & Express.js
 - **Backend/ML**: Python (5.7%)
 
 ### Project Structure
@@ -33,7 +34,7 @@ The AI Spam Detection System is designed to detect and classify spam messages, e
 ```
 ai-spam-detection-system/
 ├── frontend/          # React application for the user interface
-├── backend/           # API server and business logic
+├── backend/           # Node.js & Express.js API server and business logic
 ├── ml-service/        # Python ML service for spam detection
 └── README.md          # Project documentation
 ```
@@ -50,13 +51,15 @@ npm start
 #### Backend Setup
 ```bash
 cd backend
-# Follow backend-specific setup instructions
+npm install
+npm start
 ```
 
 #### ML Service Setup
 ```bash
 cd ml-service
-# Follow ml-service-specific setup instructions
+pip install -r requirements.txt
+python service.py
 ```
 
 ### Contributing
